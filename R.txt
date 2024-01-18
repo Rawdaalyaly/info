@@ -1,0 +1,11 @@
+create table library_
+(
+LIBRARY_ID int primary key ,
+LIBRARY_NAME nvarchar (30) ,
+LIBRARY_TYPE varchar (40) ,
+);
+insert into library_ values	(1 , 'Main Library' , 'MainLibrary' );
+insert into library_ values	(2 , 'Branch Library1' , 'BranchLibrary');  
+insert into library_ values	(3 , 'Branch Library2', 'BranchLibrary' );
+
+select * from library_;
